@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		18BD50448CA489F9135B0CF7D1F031E6 /* Pods-Smoother_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E33320EE93EAD041A108B8A00F2AF6BF /* Pods-Smoother_Tests-dummy.m */; };
 		3E09A902920B342DCBFBCAF9B5FC8E01 /* Pods-Smoother_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02420E6B682F3898C84D2BCD7C445B35 /* Pods-Smoother_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71599600220CA98B0083E530 /* Smoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715995FF220CA98B0083E530 /* Smoother.swift */; };
 		BD6529276ABB778FCAFA0EA39E2E859A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C81B3885097F29428B60FD01DEFDAF61 /* Pods-Smoother_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B2E6B3FEEFFEA2749F2FB36A7D10EF /* Pods-Smoother_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E14E0D8F7AA936A684F4D9E7E2493283 /* Smoother-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EB7A54BC2FB0B367128F02B6282F6C /* Smoother-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CBAE2C402E5D5688060BF4027FA915 /* Smoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC6442174CD5B5E8C6280651ADF73DF /* Smoother.swift */; };
+		E14E0D8F7AA936A684F4D9E7E2493283 /* Smoother-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 115F43AB13C8209869789C907995129A /* Smoother-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E576E5786D9E8805CC842FAEB0C2D964 /* Pods-Smoother_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D15268F7DA2F22F33EA26173D552E5 /* Pods-Smoother_Example-dummy.m */; };
-		F07923455986C019C137F8212BDBC160 /* Smoother-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77DA879BBD0221095B00EB4ED120CC /* Smoother-dummy.m */; };
+		E59ABD90C72549CD9A4275DB19A4CA85 /* Smoother-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD25415122EFB8519D222A6951CD4B3 /* Smoother-dummy.m */; };
 		F7758D69F854D97112933615C8A5DDF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		FA56C80781A63A3974610D9092C6F5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,35 +40,35 @@
 		02420E6B682F3898C84D2BCD7C445B35 /* Pods-Smoother_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smoother_Example-umbrella.h"; sourceTree = "<group>"; };
 		02C73FC651D77D581A29A8A0BE405242 /* Pods-Smoother_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0368B5D5712131AC50FA0C3580A97EED /* Pods-Smoother_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smoother_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		03CFA6AC64C1E6A9C85DD785D4931DA1 /* Pods_Smoother_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smoother_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CFA6AC64C1E6A9C85DD785D4931DA1 /* Pods_Smoother_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Smoother_Tests.framework; path = "Pods-Smoother_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		053DADDCD5B6350CC050EAF77BFD2975 /* Pods-Smoother_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0C77DA879BBD0221095B00EB4ED120CC /* Smoother-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smoother-dummy.m"; sourceTree = "<group>"; };
+		115F43AB13C8209869789C907995129A /* Smoother-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smoother-umbrella.h"; sourceTree = "<group>"; };
 		15D15268F7DA2F22F33EA26173D552E5 /* Pods-Smoother_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smoother_Example-dummy.m"; sourceTree = "<group>"; };
-		24D2FA4951EE1FDFCA5A8C49C1A74764 /* Pods_Smoother_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smoother_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D2FA4951EE1FDFCA5A8C49C1A74764 /* Pods_Smoother_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Smoother_Example.framework; path = "Pods-Smoother_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EBA19342A8305C389E80C9C8F270EB /* Pods-Smoother_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Tests-Info.plist"; sourceTree = "<group>"; };
-		2BA498CD83292941559E031948340274 /* Smoother-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Smoother-Info.plist"; sourceTree = "<group>"; };
 		32964A6AD027B7C56B330AFD08814A9B /* Pods-Smoother_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Example-Info.plist"; sourceTree = "<group>"; };
-		35EB7A54BC2FB0B367128F02B6282F6C /* Smoother-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smoother-umbrella.h"; sourceTree = "<group>"; };
+		476230357D5E923A2CEDE951FA6D2B5B /* Smoother-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smoother-prefix.pch"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B89502B5DF1CBAA24FAA0ABC617383B /* Pods-Smoother_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smoother_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5D36967DF137813A58CED43862AD1CDF /* Pods-Smoother_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smoother.xcconfig; sourceTree = "<group>"; };
-		7092FF88FFD261E2C7493CC716D2D85C /* Smoother-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smoother-prefix.pch"; sourceTree = "<group>"; };
-		715995FF220CA98B0083E530 /* Smoother.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smoother.swift; sourceTree = "<group>"; };
-		81068C7B22CB7BFDE7A32DF4928770C5 /* Smoother.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Smoother.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		633B7E02DA55DF7447E5761C77624145 /* Smoother.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Smoother.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6BC6442174CD5B5E8C6280651ADF73DF /* Smoother.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Smoother.swift; path = Smoother/Classes/Smoother.swift; sourceTree = "<group>"; };
+		74CD88688DC285DA3B11B64D6DE93086 /* Smoother-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Smoother-Info.plist"; sourceTree = "<group>"; };
+		7A4129B2AB4EE9F883E56A6828F2C968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		82B2E6B3FEEFFEA2749F2FB36A7D10EF /* Pods-Smoother_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smoother_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8DD25415122EFB8519D222A6951CD4B3 /* Smoother-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smoother-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945603C26136D104B1E984354367EEC0 /* Pods-Smoother_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		97FA959C66A204175CBEF6832C2E0C51 /* Smoother.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smoother.modulemap; sourceTree = "<group>"; };
-		A1D2771ADBD942528D277C0633FD071E /* Smoother.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Smoother.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C58E0783F1E5DAF5F95EFC3795F5975 /* Smoother.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smoother.xcconfig; sourceTree = "<group>"; };
+		A1D2771ADBD942528D277C0633FD071E /* Smoother.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Smoother.framework; path = Smoother.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2040F2FA4D523C07B7C30FFA2E9A9D /* Pods-Smoother_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B1AECCF00B20AC82458974C1E1588716 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B41292D25580256C4BB33FAD9366E60F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C69BF37BC97F0BFAAA0B78DC4E21357B /* Pods-Smoother_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8A0D83DD92270CAED44C009E9C5F45B /* Pods-Smoother_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Smoother_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CA4D898DC94756F5153B1C7499FDAE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E33320EE93EAD041A108B8A00F2AF6BF /* Pods-Smoother_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smoother_Tests-dummy.m"; sourceTree = "<group>"; };
 		E672A43F642EAD28B28945B4A28A91DA /* Pods-Smoother_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smoother_Tests.modulemap"; sourceTree = "<group>"; };
 		F889133DB959983AFEBDE90FBE4766D0 /* Pods-Smoother_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smoother_Example.modulemap"; sourceTree = "<group>"; };
+		F996011E457F06602D3BFDB73B3CD7F6 /* Smoother.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smoother.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,33 +108,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		405C66745D1650F3B83309D93A9B7C97 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CA4D898DC94756F5153B1C7499FDAE12 /* LICENSE */,
-				B1AECCF00B20AC82458974C1E1588716 /* README.md */,
-				81068C7B22CB7BFDE7A32DF4928770C5 /* Smoother.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4A2535F9717859EFD80CAD8E6C2F49CE /* Smoother */ = {
-			isa = PBXGroup;
-			children = (
-				715995FF220CA98B0083E530 /* Smoother.swift */,
-				405C66745D1650F3B83309D93A9B7C97 /* Pod */,
-				D4A14AE5AE4F812CCD60E0EB0CE7FDBE /* Support Files */,
-			);
-			name = Smoother;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D2FA52CBF8CFF123F20BF781E3F83DC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B41292D25580256C4BB33FAD9366E60F /* LICENSE */,
+				7A4129B2AB4EE9F883E56A6828F2C968 /* README.md */,
+				633B7E02DA55DF7447E5761C77624145 /* Smoother.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -146,6 +135,17 @@
 				DF32716C0BFA41946D3C2E7D399CF289 /* Products */,
 				232BAE80A5FB1657CEA754C7511E04EB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80C85DF2F61A010115B569D7AF915C4D /* Smoother */ = {
+			isa = PBXGroup;
+			children = (
+				6BC6442174CD5B5E8C6280651ADF73DF /* Smoother.swift */,
+				7D2FA52CBF8CFF123F20BF781E3F83DC /* Pod */,
+				C02A4DE64F5AAB5202D6B7C21A71E6B8 /* Support Files */,
+			);
+			name = Smoother;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		84F6C9D04FDE32E414A1AB110E5105B8 /* Pods-Smoother_Tests */ = {
@@ -167,7 +167,7 @@
 		88B1D959A85075D9699460C0CEC8979E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A2535F9717859EFD80CAD8E6C2F49CE /* Smoother */,
+				80C85DF2F61A010115B569D7AF915C4D /* Smoother */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -197,15 +197,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4A14AE5AE4F812CCD60E0EB0CE7FDBE /* Support Files */ = {
+		C02A4DE64F5AAB5202D6B7C21A71E6B8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				97FA959C66A204175CBEF6832C2E0C51 /* Smoother.modulemap */,
-				651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */,
-				0C77DA879BBD0221095B00EB4ED120CC /* Smoother-dummy.m */,
-				2BA498CD83292941559E031948340274 /* Smoother-Info.plist */,
-				7092FF88FFD261E2C7493CC716D2D85C /* Smoother-prefix.pch */,
-				35EB7A54BC2FB0B367128F02B6282F6C /* Smoother-umbrella.h */,
+				F996011E457F06602D3BFDB73B3CD7F6 /* Smoother.modulemap */,
+				9C58E0783F1E5DAF5F95EFC3795F5975 /* Smoother.xcconfig */,
+				8DD25415122EFB8519D222A6951CD4B3 /* Smoother-dummy.m */,
+				74CD88688DC285DA3B11B64D6DE93086 /* Smoother-Info.plist */,
+				476230357D5E923A2CEDE951FA6D2B5B /* Smoother-prefix.pch */,
+				115F43AB13C8209869789C907995129A /* Smoother-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Smoother";
@@ -275,7 +275,7 @@
 			buildConfigurationList = 82CF4E6A43C4A6B32D0097B4B891C169 /* Build configuration list for PBXNativeTarget "Smoother" */;
 			buildPhases = (
 				20698D234EE51A41C070292AE0EFFC86 /* Headers */,
-				202F1402FD5C5ADCCAA8B0BDE03F11A8 /* Sources */,
+				706E658AF1E6C8EDC97886B722FAC236 /* Sources */,
 				4D0F71216D6F752F4F8FF6FBC92948A1 /* Frameworks */,
 				B0E904A9B129A5C01C02770F1CF64E4A /* Resources */,
 			);
@@ -360,12 +360,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		202F1402FD5C5ADCCAA8B0BDE03F11A8 /* Sources */ = {
+		706E658AF1E6C8EDC97886B722FAC236 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07923455986C019C137F8212BDBC160 /* Smoother-dummy.m in Sources */,
-				71599600220CA98B0083E530 /* Smoother.swift in Sources */,
+				E59ABD90C72549CD9A4275DB19A4CA85 /* Smoother-dummy.m in Sources */,
+				D4CBAE2C402E5D5688060BF4027FA915 /* Smoother.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +405,7 @@
 /* Begin XCBuildConfiguration section */
 		00744212480BEF4DF40F0B92D0362C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */;
+			baseConfigurationReference = 9C58E0783F1E5DAF5F95EFC3795F5975 /* Smoother.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -462,7 +462,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -531,7 +532,7 @@
 		};
 		8A65E60EC823870F24BB2786C2175EFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */;
+			baseConfigurationReference = 9C58E0783F1E5DAF5F95EFC3795F5975 /* Smoother.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -553,7 +554,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

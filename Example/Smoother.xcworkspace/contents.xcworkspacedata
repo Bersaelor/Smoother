@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Smoother.xcodeproj">
+      location = "group:../Smoother/Classes">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Smoother.xcodeproj">
    </FileRef>
 </Workspace>

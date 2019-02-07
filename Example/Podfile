@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Smoother_Example' do
+  pod 'Smoother', :path => '../'
+
+  target 'Smoother_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

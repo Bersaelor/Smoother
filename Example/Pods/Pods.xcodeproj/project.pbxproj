@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BD50448CA489F9135B0CF7D1F031E6 /* Pods-Smoother_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E33320EE93EAD041A108B8A00F2AF6BF /* Pods-Smoother_Tests-dummy.m */; };
+		3E09A902920B342DCBFBCAF9B5FC8E01 /* Pods-Smoother_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02420E6B682F3898C84D2BCD7C445B35 /* Pods-Smoother_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71599600220CA98B0083E530 /* Smoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715995FF220CA98B0083E530 /* Smoother.swift */; };
+		BD6529276ABB778FCAFA0EA39E2E859A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C81B3885097F29428B60FD01DEFDAF61 /* Pods-Smoother_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B2E6B3FEEFFEA2749F2FB36A7D10EF /* Pods-Smoother_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E14E0D8F7AA936A684F4D9E7E2493283 /* Smoother-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EB7A54BC2FB0B367128F02B6282F6C /* Smoother-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E576E5786D9E8805CC842FAEB0C2D964 /* Pods-Smoother_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D15268F7DA2F22F33EA26173D552E5 /* Pods-Smoother_Example-dummy.m */; };
+		F07923455986C019C137F8212BDBC160 /* Smoother-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77DA879BBD0221095B00EB4ED120CC /* Smoother-dummy.m */; };
+		F7758D69F854D97112933615C8A5DDF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FA56C80781A63A3974610D9092C6F5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAB18615AF76A207A14CDF69989470DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4778EAD77F88AFF9ED4E5FE0D7EAC07;
+			remoteInfo = Smoother;
+		};
+		E2A30F984F328057D6520CCD0F7240D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110AA24C1086479FA511FCC4C8B6C778;
+			remoteInfo = "Pods-Smoother_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02420E6B682F3898C84D2BCD7C445B35 /* Pods-Smoother_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smoother_Example-umbrella.h"; sourceTree = "<group>"; };
+		02C73FC651D77D581A29A8A0BE405242 /* Pods-Smoother_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0368B5D5712131AC50FA0C3580A97EED /* Pods-Smoother_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smoother_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03CFA6AC64C1E6A9C85DD785D4931DA1 /* Pods_Smoother_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smoother_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		053DADDCD5B6350CC050EAF77BFD2975 /* Pods-Smoother_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C77DA879BBD0221095B00EB4ED120CC /* Smoother-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smoother-dummy.m"; sourceTree = "<group>"; };
+		15D15268F7DA2F22F33EA26173D552E5 /* Pods-Smoother_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smoother_Example-dummy.m"; sourceTree = "<group>"; };
+		24D2FA4951EE1FDFCA5A8C49C1A74764 /* Pods_Smoother_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smoother_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EBA19342A8305C389E80C9C8F270EB /* Pods-Smoother_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Tests-Info.plist"; sourceTree = "<group>"; };
+		2BA498CD83292941559E031948340274 /* Smoother-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Smoother-Info.plist"; sourceTree = "<group>"; };
+		32964A6AD027B7C56B330AFD08814A9B /* Pods-Smoother_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Example-Info.plist"; sourceTree = "<group>"; };
+		35EB7A54BC2FB0B367128F02B6282F6C /* Smoother-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smoother-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B89502B5DF1CBAA24FAA0ABC617383B /* Pods-Smoother_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smoother_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D36967DF137813A58CED43862AD1CDF /* Pods-Smoother_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smoother.xcconfig; sourceTree = "<group>"; };
+		7092FF88FFD261E2C7493CC716D2D85C /* Smoother-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smoother-prefix.pch"; sourceTree = "<group>"; };
+		715995FF220CA98B0083E530 /* Smoother.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smoother.swift; sourceTree = "<group>"; };
+		81068C7B22CB7BFDE7A32DF4928770C5 /* Smoother.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Smoother.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82B2E6B3FEEFFEA2749F2FB36A7D10EF /* Pods-Smoother_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smoother_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945603C26136D104B1E984354367EEC0 /* Pods-Smoother_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		97FA959C66A204175CBEF6832C2E0C51 /* Smoother.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smoother.modulemap; sourceTree = "<group>"; };
+		A1D2771ADBD942528D277C0633FD071E /* Smoother.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Smoother.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2040F2FA4D523C07B7C30FFA2E9A9D /* Pods-Smoother_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smoother_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1AECCF00B20AC82458974C1E1588716 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C69BF37BC97F0BFAAA0B78DC4E21357B /* Pods-Smoother_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smoother_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8A0D83DD92270CAED44C009E9C5F45B /* Pods-Smoother_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Smoother_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA4D898DC94756F5153B1C7499FDAE12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E33320EE93EAD041A108B8A00F2AF6BF /* Pods-Smoother_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smoother_Tests-dummy.m"; sourceTree = "<group>"; };
+		E672A43F642EAD28B28945B4A28A91DA /* Pods-Smoother_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smoother_Tests.modulemap"; sourceTree = "<group>"; };
+		F889133DB959983AFEBDE90FBE4766D0 /* Pods-Smoother_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smoother_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42DD1A0275BC90A62EB4FDB2908593BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7758D69F854D97112933615C8A5DDF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0F71216D6F752F4F8FF6FBC92948A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA56C80781A63A3974610D9092C6F5C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E057D525EFE07AAD5DB69616694B8633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6529276ABB778FCAFA0EA39E2E859A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232BAE80A5FB1657CEA754C7511E04EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE338E406FD4A3EEF1F06C59D30BE4 /* Pods-Smoother_Example */,
+				84F6C9D04FDE32E414A1AB110E5105B8 /* Pods-Smoother_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		405C66745D1650F3B83309D93A9B7C97 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D898DC94756F5153B1C7499FDAE12 /* LICENSE */,
+				B1AECCF00B20AC82458974C1E1588716 /* README.md */,
+				81068C7B22CB7BFDE7A32DF4928770C5 /* Smoother.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4A2535F9717859EFD80CAD8E6C2F49CE /* Smoother */ = {
+			isa = PBXGroup;
+			children = (
+				715995FF220CA98B0083E530 /* Smoother.swift */,
+				405C66745D1650F3B83309D93A9B7C97 /* Pod */,
+				D4A14AE5AE4F812CCD60E0EB0CE7FDBE /* Support Files */,
+			);
+			name = Smoother;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				88B1D959A85075D9699460C0CEC8979E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DF32716C0BFA41946D3C2E7D399CF289 /* Products */,
+				232BAE80A5FB1657CEA754C7511E04EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84F6C9D04FDE32E414A1AB110E5105B8 /* Pods-Smoother_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E672A43F642EAD28B28945B4A28A91DA /* Pods-Smoother_Tests.modulemap */,
+				5B89502B5DF1CBAA24FAA0ABC617383B /* Pods-Smoother_Tests-acknowledgements.markdown */,
+				02C73FC651D77D581A29A8A0BE405242 /* Pods-Smoother_Tests-acknowledgements.plist */,
+				E33320EE93EAD041A108B8A00F2AF6BF /* Pods-Smoother_Tests-dummy.m */,
+				29EBA19342A8305C389E80C9C8F270EB /* Pods-Smoother_Tests-Info.plist */,
+				82B2E6B3FEEFFEA2749F2FB36A7D10EF /* Pods-Smoother_Tests-umbrella.h */,
+				5D36967DF137813A58CED43862AD1CDF /* Pods-Smoother_Tests.debug.xcconfig */,
+				945603C26136D104B1E984354367EEC0 /* Pods-Smoother_Tests.release.xcconfig */,
+			);
+			name = "Pods-Smoother_Tests";
+			path = "Target Support Files/Pods-Smoother_Tests";
+			sourceTree = "<group>";
+		};
+		88B1D959A85075D9699460C0CEC8979E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A2535F9717859EFD80CAD8E6C2F49CE /* Smoother */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B6EE338E406FD4A3EEF1F06C59D30BE4 /* Pods-Smoother_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F889133DB959983AFEBDE90FBE4766D0 /* Pods-Smoother_Example.modulemap */,
+				0368B5D5712131AC50FA0C3580A97EED /* Pods-Smoother_Example-acknowledgements.markdown */,
+				C69BF37BC97F0BFAAA0B78DC4E21357B /* Pods-Smoother_Example-acknowledgements.plist */,
+				15D15268F7DA2F22F33EA26173D552E5 /* Pods-Smoother_Example-dummy.m */,
+				C8A0D83DD92270CAED44C009E9C5F45B /* Pods-Smoother_Example-frameworks.sh */,
+				32964A6AD027B7C56B330AFD08814A9B /* Pods-Smoother_Example-Info.plist */,
+				02420E6B682F3898C84D2BCD7C445B35 /* Pods-Smoother_Example-umbrella.h */,
+				053DADDCD5B6350CC050EAF77BFD2975 /* Pods-Smoother_Example.debug.xcconfig */,
+				AB2040F2FA4D523C07B7C30FFA2E9A9D /* Pods-Smoother_Example.release.xcconfig */,
+			);
+			name = "Pods-Smoother_Example";
+			path = "Target Support Files/Pods-Smoother_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4A14AE5AE4F812CCD60E0EB0CE7FDBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97FA959C66A204175CBEF6832C2E0C51 /* Smoother.modulemap */,
+				651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */,
+				0C77DA879BBD0221095B00EB4ED120CC /* Smoother-dummy.m */,
+				2BA498CD83292941559E031948340274 /* Smoother-Info.plist */,
+				7092FF88FFD261E2C7493CC716D2D85C /* Smoother-prefix.pch */,
+				35EB7A54BC2FB0B367128F02B6282F6C /* Smoother-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Smoother";
+			sourceTree = "<group>";
+		};
+		DF32716C0BFA41946D3C2E7D399CF289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D2FA4951EE1FDFCA5A8C49C1A74764 /* Pods_Smoother_Example.framework */,
+				03CFA6AC64C1E6A9C85DD785D4931DA1 /* Pods_Smoother_Tests.framework */,
+				A1D2771ADBD942528D277C0633FD071E /* Smoother.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20698D234EE51A41C070292AE0EFFC86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14E0D8F7AA936A684F4D9E7E2493283 /* Smoother-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE34F758700C36CD7FC4283853B81ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E09A902920B342DCBFBCAF9B5FC8E01 /* Pods-Smoother_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DBA6E77477778EE060D20BC747696D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81B3885097F29428B60FD01DEFDAF61 /* Pods-Smoother_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		110AA24C1086479FA511FCC4C8B6C778 /* Pods-Smoother_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A903B9BEEC7DF1AA278BF5D60346C0B /* Build configuration list for PBXNativeTarget "Pods-Smoother_Example" */;
+			buildPhases = (
+				9FE34F758700C36CD7FC4283853B81ED /* Headers */,
+				B233AEAC96F6A7ADD3892EF3AFDA0A2E /* Sources */,
+				42DD1A0275BC90A62EB4FDB2908593BF /* Frameworks */,
+				0B951CE53BDC4286B3E7600DFC313162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8094E6F860FC2C177903E5D45BF22D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Smoother_Example";
+			productName = "Pods-Smoother_Example";
+			productReference = 24D2FA4951EE1FDFCA5A8C49C1A74764 /* Pods_Smoother_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4778EAD77F88AFF9ED4E5FE0D7EAC07 /* Smoother */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CF4E6A43C4A6B32D0097B4B891C169 /* Build configuration list for PBXNativeTarget "Smoother" */;
+			buildPhases = (
+				20698D234EE51A41C070292AE0EFFC86 /* Headers */,
+				202F1402FD5C5ADCCAA8B0BDE03F11A8 /* Sources */,
+				4D0F71216D6F752F4F8FF6FBC92948A1 /* Frameworks */,
+				B0E904A9B129A5C01C02770F1CF64E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smoother;
+			productName = Smoother;
+			productReference = A1D2771ADBD942528D277C0633FD071E /* Smoother.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F56A61802905766144858981FAE88338 /* Pods-Smoother_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E983339525C6959EF59809E14CD852C /* Build configuration list for PBXNativeTarget "Pods-Smoother_Tests" */;
+			buildPhases = (
+				C5DBA6E77477778EE060D20BC747696D /* Headers */,
+				A671CFC777F53E30A7D17B22A1C050C0 /* Sources */,
+				E057D525EFE07AAD5DB69616694B8633 /* Frameworks */,
+				036B363D1A8D56043A44E90023D7F2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A443719567CBE1CB655C89D5CA1EE8C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Smoother_Tests";
+			productName = "Pods-Smoother_Tests";
+			productReference = 03CFA6AC64C1E6A9C85DD785D4931DA1 /* Pods_Smoother_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DF32716C0BFA41946D3C2E7D399CF289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110AA24C1086479FA511FCC4C8B6C778 /* Pods-Smoother_Example */,
+				F56A61802905766144858981FAE88338 /* Pods-Smoother_Tests */,
+				A4778EAD77F88AFF9ED4E5FE0D7EAC07 /* Smoother */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036B363D1A8D56043A44E90023D7F2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B951CE53BDC4286B3E7600DFC313162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E904A9B129A5C01C02770F1CF64E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202F1402FD5C5ADCCAA8B0BDE03F11A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07923455986C019C137F8212BDBC160 /* Smoother-dummy.m in Sources */,
+				71599600220CA98B0083E530 /* Smoother.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671CFC777F53E30A7D17B22A1C050C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BD50448CA489F9135B0CF7D1F031E6 /* Pods-Smoother_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B233AEAC96F6A7ADD3892EF3AFDA0A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E576E5786D9E8805CC842FAEB0C2D964 /* Pods-Smoother_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A443719567CBE1CB655C89D5CA1EE8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Smoother_Example";
+			target = 110AA24C1086479FA511FCC4C8B6C778 /* Pods-Smoother_Example */;
+			targetProxy = E2A30F984F328057D6520CCD0F7240D8 /* PBXContainerItemProxy */;
+		};
+		F8094E6F860FC2C177903E5D45BF22D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Smoother;
+			target = A4778EAD77F88AFF9ED4E5FE0D7EAC07 /* Smoother */;
+			targetProxy = BAB18615AF76A207A14CDF69989470DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00744212480BEF4DF40F0B92D0362C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Smoother/Smoother-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Smoother/Smoother-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Smoother/Smoother.modulemap";
+				PRODUCT_MODULE_NAME = Smoother;
+				PRODUCT_NAME = Smoother;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		377248551A1353DD77685A38DEEA8E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2040F2FA4D523C07B7C30FFA2E9A9D /* Pods-Smoother_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smoother_Example/Pods-Smoother_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smoother_Example/Pods-Smoother_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A65E60EC823870F24BB2786C2175EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651771E2FF14443A8AB609446D62733D /* Smoother.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Smoother/Smoother-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Smoother/Smoother-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Smoother/Smoother.modulemap";
+				PRODUCT_MODULE_NAME = Smoother;
+				PRODUCT_NAME = Smoother;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A443465AA236E7B48F7DACA9E6AABA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945603C26136D104B1E984354367EEC0 /* Pods-Smoother_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smoother_Tests/Pods-Smoother_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smoother_Tests/Pods-Smoother_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A51F82C57CB925DDDEE6BCDA114C55EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D36967DF137813A58CED43862AD1CDF /* Pods-Smoother_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smoother_Tests/Pods-Smoother_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smoother_Tests/Pods-Smoother_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA0D55EDA4AE1E2D0C8AAA1C04F3B6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053DADDCD5B6350CC050EAF77BFD2975 /* Pods-Smoother_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smoother_Example/Pods-Smoother_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smoother_Example/Pods-Smoother_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E983339525C6959EF59809E14CD852C /* Build configuration list for PBXNativeTarget "Pods-Smoother_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F82C57CB925DDDEE6BCDA114C55EB /* Debug */,
+				A443465AA236E7B48F7DACA9E6AABA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A903B9BEEC7DF1AA278BF5D60346C0B /* Build configuration list for PBXNativeTarget "Pods-Smoother_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0D55EDA4AE1E2D0C8AAA1C04F3B6B2 /* Debug */,
+				377248551A1353DD77685A38DEEA8E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CF4E6A43C4A6B32D0097B4B891C169 /* Build configuration list for PBXNativeTarget "Smoother" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00744212480BEF4DF40F0B92D0362C15 /* Debug */,
+				8A65E60EC823870F24BB2786C2175EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

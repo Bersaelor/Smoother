@@ -1,0 +1,16 @@
+PODS:
+  - Smoother (0.1.0)
+
+DEPENDENCIES:
+  - Smoother (from `../`)
+
+EXTERNAL SOURCES:
+  Smoother:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Smoother: 76a75e21c110106d8916a36bdfb379a55405af80
+
+PODFILE CHECKSUM: f2178621b7dab758252dd165f7ee19f7abaf934e
+
+COCOAPODS: 1.6.0.beta.1

@@ -1,0 +1,6 @@
+framework module Smoother {
+  umbrella header "Smoother-umbrella.h"
+
+  export *
+  module * { export * }
+}
